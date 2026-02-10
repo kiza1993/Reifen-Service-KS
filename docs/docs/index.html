@@ -1,86 +1,102 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Reifen & Service K&S – KFZ Service Stixneusiedl</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reifen und Service K&S – Stixneusiedl</title>
+  <meta name="description" content="Reifen und Service K&S in Stixneusiedl – Professioneller Reifenwechsel, Ölwechsel und Reifenlagerung. Schnell, zuverlässig und modern.">
+  <meta name="keywords" content="Reifen, Reifenwechsel, Ölwechsel, Reifen Depot, Stixneusiedl, Autowerkstatt, K&S">
+  <meta name="author" content="Reifen und Service K&S">
 
-<meta name="description" content="Reifen & Service K&S – Reifenservice, KFZ-Service & Reparaturen in 2463 Stixneusiedl. Alte Bundesstraße 33. Schnell & zuverlässig.">
+  <style>
+    /* Grundstil */
+    body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height:1.6; background-color:#f5f5f5; color:#222; }
+    a { text-decoration:none; color:inherit; }
+    
+    /* Header */
+    header { background-color:#006400; color:white; padding:30px 20px; text-align:center; box-shadow:0 4px 6px rgba(0,0,0,0.3); }
+    header h1 { margin:0; font-size:2.5em; }
+    header p { margin:5px 0 0 0; font-size:1.2em; }
 
-<style>
-body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f2f2f2;color:#222}
-header{background:linear-gradient(135deg,#000,#c40000);color:#fff;padding:50px 20px;text-align:center}
-section{padding:50px 20px;max-width:1100px;margin:auto}
-h2{text-align:center;color:#c40000;margin-bottom:30px}
-.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
-.card,.box{background:#fff;padding:25px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.12)}
-.buttons{text-align:center;margin-top:25px}
-.buttons a{display:inline-block;margin:10px;padding:15px 30px;background:#c40000;color:#fff;text-decoration:none;border-radius:30px;font-weight:bold}
-iframe{width:100%;height:300px;border:0;border-radius:12px;margin-top:20px}
-footer{background:#111;color:#fff;text-align:center;padding:25px;font-size:14px}
-footer a{color:#c40000;text-decoration:none}
-</style>
+    /* Navigation */
+    nav { display:flex; justify-content:center; background-color:#000000; padding:15px 0; gap:30px; }
+    nav a { color:white; font-weight:bold; transition: color 0.3s; }
+    nav a:hover { color:#00ff00; }
+
+    /* Hero Section */
+    .hero { background: linear-gradient(rgba(0,100,0,0.7), rgba(0,100,0,0.7)), url('https://images.unsplash.com/photo-1616628181735-5dcb5f9b8e58?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat; color:white; text-align:center; padding:100px 20px; }
+    .hero h2 { font-size:2.5em; margin-bottom:20px; }
+    .hero p { font-size:1.3em; }
+
+    /* Sections */
+    .section { max-width:1000px; margin:auto; padding:60px 20px; }
+    h2 { color:#006400; text-align:center; margin-bottom:40px; }
+
+    /* Leistungs-Boxen */
+    .services { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
+    .service-box { background:white; flex:1 1 250px; padding:30px; border-radius:10px; box-shadow:0 6px 15px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; }
+    .service-box:hover { transform: translateY(-10px); box-shadow:0 10px 25px rgba(0,0,0,0.2); }
+    .service-box h3 { color:#006400; margin-bottom:15px; }
+
+    /* Kontakt */
+    .contact p { text-align:center; margin:10px 0; font-size:1.1em; }
+    .map-container { text-align:center; margin-top:30px; }
+    iframe { width:100%; max-width:600px; height:400px; border:0; border-radius:10px; }
+
+    /* Footer */
+    footer { background-color:#000000; color:white; text-align:center; padding:20px 0; }
+
+    /* Responsive */
+    @media(max-width:768px) { .services { flex-direction:column; align-items:center; } }
+  </style>
 </head>
-
 <body>
+  <header>
+    <h1>Reifen und Service K&S</h1>
+    <p>Alte Bundesstraße 33, 2463 Stixneusiedl</p>
+  </header>
 
-<header>
-<svg width="300" height="90" viewBox="0 0 300 90" xmlns="http://www.w3.org/2000/svg">
-  <rect width="300" height="90" rx="14" fill="#111"/>
-  <circle cx="45" cy="45" r="26" fill="#c40000"/>
-  <circle cx="45" cy="45" r="16" fill="#111"/>
-  <text x="90" y="52" fill="#ffffff" font-size="28" font-family="Arial" font-weight="bold">Reifen & Service</text>
-  <text x="92" y="74" fill="#c40000" font-size="20" font-family="Arial" font-weight="bold">K & S</text>
-</svg>
-<p>KFZ- & Reifenservice in Stixneusiedl</p>
-</header>
+  <nav>
+    <a href="#leistungen">Leistungen</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
 
-<section>
-<h2>Unsere Leistungen</h2>
-<div class="services">
-<div class="card">🛞 <strong>Reifenservice</strong><br>Wechsel, Wuchten, Einlagerung</div>
-<div class="card">🔧 <strong>KFZ-Service</strong><br>Ölwechsel, Bremsen, Reparaturen</div>
-<div class="card">🚗 <strong>Fahrzeugcheck</strong><br>Sicher & zuverlässig</div>
-</div>
-</section>
+  <section class="hero">
+    <h2>Ihr Profi für Reifen- und Autoservice</h2>
+    <p>Schnell, zuverlässig und modern in Stixneusiedl</p>
+  </section>
 
-<section>
-<h2>Über uns</h2>
-<div class="box">
-<p>Reifen & Service K&S steht für ehrliche Arbeit, faire Preise und schnellen Service. Wir sind Ihr zuverlässiger Ansprechpartner rund ums Auto in Stixneusiedl.</p>
-</div>
-</section>
+  <section class="section" id="leistungen">
+    <h2>Unsere Leistungen</h2>
+    <div class="services">
+      <div class="service-box">
+        <h3>Reifenwechsel</h3>
+        <p>Wir wechseln Ihre Reifen schnell und professionell – Sommerreifen, Winterreifen oder Ganzjahresreifen.</p>
+      </div>
+      <div class="service-box">
+        <h3>Ölwechsel</h3>
+        <p>Regelmäßiger Ölwechsel für eine lange Lebensdauer Ihres Motors – inklusive fachgerechter Entsorgung.</p>
+      </div>
+      <div class="service-box">
+        <h3>Reifen Depot</h3>
+        <p>Wir lagern Ihre Reifen sicher und trocken ein, damit Sie Platz sparen und Ihre Reifen optimal gepflegt bleiben.</p>
+      </div>
+    </div>
+  </section>
 
-<section>
-<h2>Kontakt</h2>
-<div class="box">
-<p>📍 <strong>Alte Bundesstraße 33, 2463 Stixneusiedl</strong></p>
-<p>📞 <strong>Telefon:</strong> 0123 / 456789</p>
-<p>🕒 <strong>Mo–Fr:</strong> 08:00–18:00 | <strong>Sa:</strong> 09:00–14:00</p>
+  <section class="section contact" id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Adresse: Alte Bundesstraße 33, 2463 Stixneusiedl</p>
+    <p>Telefon: <i>Hier Telefonnummer einfügen</i></p>
+    <p>E-Mail: <i>Hier E-Mail einfügen</i></p>
 
-<div class="buttons">
-<a href="https://wa.me/436600000000" target="_blank">WhatsApp</a>
-<a href="https://www.google.com/maps?q=Alte+Bundesstraße+33+2463+Stixneusiedl" target="_blank">Route planen</a>
-</div>
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=Alte+Bundesstraße+33,2463+Stixneusiedl,AT" allowfullscreen></iframe>
+    </div>
+  </section>
 
-<iframe src="https://www.google.com/maps?q=Alte+Bundesstraße+33+2463+Stixneusiedl&output=embed"></iframe>
-</div>
-</section>
-
-<section>
-<h2>Impressum & Datenschutz</h2>
-<div class="box">
-<p><strong>Firmenname:</strong> Reifen & Service K&S<br>
-<strong>Adresse:</strong> Alte Bundesstraße 33, 2463 Stixneusiedl, Österreich<br>
-<strong>Telefon:</strong> 0123 / 456789</p>
-
-<p>Diese Website dient der Information. Es werden keine personenbezogenen Daten gespeichert. Beim Kontakt über WhatsApp gelten die Datenschutzrichtlinien von WhatsApp.</p>
-</div>
-</section>
-
-<footer>
-<p>© 2026 Reifen & Service K&S</p>
-</footer>
-
+  <footer>
+    &copy; 2026 Reifen und Service K&S. Alle Rechte vorbehalten.
+  </footer>
 </body>
 </html>
